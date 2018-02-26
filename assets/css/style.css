@@ -1,0 +1,25 @@
+.body{
+
+    background-color: greenyellow;
+
+
+}
+
+#h1 {
+ 
+    color: white;
+
+}
+
+p{
+    float: left;
+    clear: left;
+    width: 28%;
+}
+
+.p{
+
+    margin: 10px;
+    margin-top: 25px;
+
+}
