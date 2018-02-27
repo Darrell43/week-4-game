@@ -8,18 +8,67 @@
 #h1 {
  
     color: white;
+    background-color: brown;
+    width: 33.3%;
+    margin: 10px;
+    margin-top: 25px;
+    padding: 25px 10px 25px 10px;
+    float: left;
+    clear: left;
 
 }
 
 p{
     float: left;
-    clear: left;
     width: 28%;
+    clear: left;
 }
 
 .p{
 
     margin: 10px;
     margin-top: 25px;
+    float: left;
+    clear: left;
 
 }
+
+#randomNumberShown{
+
+    color: white;
+    background-color: brown;
+    width: 33.3%;
+    margin: 10px;
+    margin-top: 25px;
+    padding: 25px 10px 25px 10px;
+    float: left;
+    clear: left;
+}
+
+#winsLosses{
+
+    color: white;
+    background-color: brown;
+    width: 33.3%;
+    margin: 10px;
+    margin-top: 25px;
+    padding: 25px 10px 25px 10px;
+    float: left;
+
+}
+
+#images{
+
+   width: 25%;
+   height: 130px;
+   float: left;
+   margin-right: 20px;
+}
+
+#images1{
+
+    width: 25%;
+    height: 130px;
+    float: left;
+    margin-right: 20px;
+ }
