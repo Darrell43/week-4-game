@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,60 +10,73 @@
     <link rel="stylesheet" type="text/javascript" href="assets/javascript/game.js">
     <title>Crystal Collector</title>
 
-      <!-- Bootstrap File -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
 
-  <!-- JQuery -->
-  <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
 
 
 </head>
 
 <body>
-    
-
-<div class="body">
-    <h1 id="h1">CrystalsCollector!</h1>
-
-    <div class="p">
-    <h4> You will be given a random number at the start of the game. </h4>
-
-    <h4> There are four image characters below. By clicking on an image you will add a specific amount of points to your total score. </h4>
-
-    <h4> You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. </h4>
-
-    <h4> The value of each crystal is hidden from you until you click on it. </h4>
-
-    <h4> Each time when the game starts, the game will change the value of each crystal. </h4>
-
-    </div>
-
-    <div id="randomNumberShown"></div>
 
 
-    <div id="winsLosses">
+    <div class="body">
+        <h1 id="h1">CrystalsCollector!</h1>
 
-        <p>Wins: <span id="Wins">0</span> </p>
+        <div class="h4">
+            <h4> You will be given a random number at the start of the game. </h4>
 
-        <p>Losses: <span id="Losses">0</span> </p>
+            <h4> There are four image characters below. By clicking on an image you will add a specific amount of points to your
+                total score. </h4>
 
-    </div>
+            <h4> You win the game by matching your total score to random number, you lose the game if your total score goes above
+                the random number. </h4>
 
-    <div class="container">
+            <h4> The value of each crystal is hidden from you until you click on it. </h4>
 
-        <div id="images"><img src="assets/images/Vegeta.jpg"></div>
+            <h4> Each time when the game starts, the game will change the value of each crystal. </h4>
 
-        <div id="images"><img src="assets/images/Vegeta.jpg"></div>
+        </div>
 
-        <div id="images"><img src="assets/images/Vegeta.jpg"></div>
+        <div id="randomNumberShown"> 0 </div>
 
-        <div id="images"><img src="assets/images/Vegeta.jpg"></div>
 
-    </div>
+        <div id="winsLosses">
 
-    <div> Your total score is: <span id="totalScoreRecorded"> </span> </div>
+            <p>Wins:
+                <span id="Wins">0</span>
+            </p>
 
-    <div id="pointValues"> 0 </div>
+            <p>Losses:
+                <span id="Losses">0</span>
+            </p>
+
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-3"><img src="assets/images/Vegeta.jpg"> </div>
+                <div class="col-sm-3"><img src="assets/images/GokuUI.jpg"></div>
+                <div class="col-sm-3"><img src="assets/images/MajinBuu.jpg"></div>
+                <div class="col-sm-3"><img src="assets/images/Jiren.jpg"></div>
+
+            </div>
+
+        </div>
+
+
+
+        <div> Your total score is:
+            <span id="totalScoreRecorded"> </span>
+        </div>
+
+        <div id="pointValues"> 0 </div>
 
 </body>
+
 </html>

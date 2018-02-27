@@ -1,7 +1,5 @@
-.body{
-
-    background-color: greenyellow;
-
+body{
+    background-image: url("assets/images/battleStage.jpg");
 
 }
 
@@ -18,26 +16,31 @@
 
 }
 
-p{
+h4{
     float: left;
     width: 28%;
     clear: left;
+    margin: 10px;
+    width: 89%;
 }
 
-.p{
-
+.h4{
+    color: white;
+    background-color: brown;
     margin: 10px;
     margin-top: 25px;
+    margin-right: 130px;
     float: left;
     clear: left;
-
+    width: 33.3%;
 }
 
 #randomNumberShown{
 
     color: white;
+    height: 140px;
     background-color: brown;
-    width: 33.3%;
+    width: 250px;
     margin: 10px;
     margin-top: 25px;
     padding: 25px 10px 25px 10px;
@@ -57,18 +60,12 @@ p{
 
 }
 
-#images{
-
-   width: 25%;
+.row{
    height: 130px;
    float: left;
    margin-right: 20px;
+   clear: left;
+   margin-left: 20px;
 }
 
-#images1{
 
-    width: 25%;
-    height: 130px;
-    float: left;
-    margin-right: 20px;
- }
