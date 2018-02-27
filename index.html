@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/javascript" href="assets/javascript/game.js">
     <title>Crystal Collector</title>
 
       <!-- Bootstrap File -->
@@ -21,29 +22,47 @@
     
 
 <div class="body">
-    <h1 class="h1">CrystalsCollector</h1>
+    <h1 id="h1">CrystalsCollector</h1>
 
     <div class="p">
-    <p> You will be given a random number at the start of the game. </p>
+    <h4> You will be given a random number at the start of the game. </h4>
 
-    <p> There are four image characters below. By clicking on an image you will add a specific amount of points to your total score. </p>
+    <h4> There are four image characters below. By clicking on an image you will add a specific amount of points to your total score. </h4>
 
-    <p> You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. </p>
+    <h4> You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. </h4>
 
-    <p> The value of each crystal is hidden from you until you click on it. </p>
+    <h4> The value of each crystal is hidden from you until you click on it. </h4>
 
-    <p> Each time when the game starts, the game will change the value of each crystal. </p>
+    <h4> Each time when the game starts, the game will change the value of each crystal. </h4>
+
+    </div>
+
+    <div id="randomNumberShown"></div>
+
+
+    <div id="winLosses">
+
+        <p>Wins: <span id="Wins">0</span> </p>
+
+        <p>Losses: <span id="Losses">0</span> </p>
 
     </div>
 
     <div class="container">
 
-        <div class="row"></div>
-       
-      </div>
+        <a id="" href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
 
-</div>
+        <a id="" href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
 
+        <a id="" href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
+
+        <a id="" href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
+
+    </div>
+
+    <div> Your total score is: <span id="totalScoreRecorded"> </span> </div>
+
+    <div id="pointValues"> </div>
 
 </body>
 </html>
